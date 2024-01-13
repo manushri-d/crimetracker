@@ -27,7 +27,7 @@ export const Home =  (given) => {
   const [areaDetails, setAreaDetails] = useState(null);
   
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyBrzOqPg6zp8HAwcsdp9-fufNAwomtodbQ',
+    googleMapsApiKey: '',
   });
 
   if (loadError) {
