@@ -1,0 +1,170 @@
+.App {
+  color: aliceblue;
+  min-height: 300vh;
+  background-image: linear-gradient(39deg, rgb(41, 58, 41),rgb(51, 72, 102) );
+}
+
+.login-specifics, .register-specifics{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.login-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.user-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.hello-page {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; 
+  padding: 0rem;
+}
+
+.column {
+  margin: 5rem;
+}
+
+.column p {
+  margin: 3rem;
+}
+
+button {
+  background-color: rgb(229, 248, 229);
+  padding: 10px;
+  border-radius: 20px;
+  border-color: rgb(35, 71, 35);
+  cursor: pointer;
+}
+
+.reglogin-specifics {
+  border: none;
+  background: none;
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+label {
+  text-align: left;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 10px;
+}
+
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.back-container1 {
+  position: absolute;
+  bottom: 1em;
+
+}
+
+.button-container {
+  display: flex;
+  position: absolute;
+  left: 82em;
+  top: -3em;
+
+}
+
+
+.top-right-button {
+  background-color: aliceblue;
+  /* position: absolute;
+  right: 4em; */
+}
+
+.search-container {
+  position: absolute;
+  left: 1em;
+  top: 5em;
+}
+
+.specifics-button {
+  /* background-color: aliceblue; */
+  position: absolute;
+  right: 6em;
+  top: 5em;
+}
+
+.specifics-button2 {
+  /* background-color: aliceblue; */
+  position: absolute;
+ 
+  top: 5em;
+}
+
+
+
+.back-user-container {
+  position: absolute;
+  left: 0em;
+  top: 0em;
+
+}
+
+.back-container {
+  position: absolute;
+  left: 95em;
+  top: -3em;
+
+}
+
+.table-container {
+  margin-top: 20px;
+  position: absolute;
+  top: 10em;
+  left: 1em;
+} 
+
+.table-container1 {
+  margin-top: 20px;
+  position: absolute;
+  top: 15em;
+  left: 2em;
+} 
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #433333;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #352d7d; 
+}
